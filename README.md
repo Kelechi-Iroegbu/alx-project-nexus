@@ -1,65 +1,98 @@
-![Expo Router Typescript](https://thedevenvironment.com/expo-router-typescript.png)
+👗 VIBE Fashion App
 
----
+A modern, stylish, and user-friendly fashion mobile application designed to deliver a seamless shopping and product discovery experience.
 
-**INTRODUCTION**
+📌 Project Description
 
-This repo is a scaffolding of an Expo application that uses Expo Router and it's file based routing capibilities. It has all the necessary packages needed to just start the application and begin adding routes.
+VIBE Fashion App is a mobile fashion platform built to help users explore trending outfits, discover curated collections, and enjoy a visually engaging shopping experience.
 
-The reason it exists is to mitigate the amount of work needed to add typescript, jest, absolute imports and eslint into the traditional quickstart that the "create-expo-app" CLI command provides.
+The project focuses on:
 
-Two sample screens have been created, so everything will run out of the box. Also a number of useful scripts have been created in the package.json that allow the ability to run, build, test, lint and serve the application.
+Clean onboarding experience
 
----
+Strong brand identity
 
-**FOLDER STRUCTURE**
+Simple navigation
 
-- `src`: The main directory of the application.
+Modern UI/UX principles
 
-  - `app`: Folder based routing directory.
+Performance optimization
 
-  - `assets`: Images, fonts, sounds, etc.
+The goal is to simulate a real-world fashion e-commerce application while applying industry best practices in mobile development.
 
-  - `components`: Reusable React components.
+🎯 Project Objectives
 
-  - `config`: Shared configuration values.
+Create a visually appealing splash and onboarding experience
 
-  - `hooks`: Reusable hooks.
+Implement responsive mobile layouts
 
-  - `utils`: Helpers and reusable methods.
+Fetch and display fashion products dynamically
 
----
+Apply reusable component architecture
 
-**GETTING STARTED**
+Ensure performance and accessibility standards
 
-```bash
-# Clone Repo
-git clone git@github.com:thedevenvironment/expo-router-typescript.git
-```
+✨ Features & Functionality
+🟠 Splash & Onboarding Screens
 
-```bash
-# Install Dependencies
-npm run setup
-```
+Branded splash screen
 
-```bash
-# Start The Dev Server
-npm run dev
+Clean welcome interface
 
-# Press 's' to switch to dev build
-# Press 'a' to open Android simulator
-# Press 'i' to open iOS simulator
-# Press 'w' to open web browser
-```
+Clear Call-To-Action (Get Started button)
 
----
+🟠 Product Listing
 
-**LEARN MORE**
+Dynamic product fetching
 
-[App.json Documentation](https://docs.expo.dev/versions/latest/config/app/)
+Responsive product grid
 
-[Expo Documentation](https://docs.expo.dev/tutorial/introduction/)
+Clean card-based layout
 
-[Expo Router Documentation](https://expo.github.io/router/docs/)
+🟠 Product Details
 
-[React Navigation Documentation](https://reactnavigation.org/docs/getting-started)
+Individual product view
+
+Product image
+
+Description
+
+Price display
+
+🟠 Navigation
+
+Stack navigation
+
+Tab-based structure
+
+Smooth screen transitions
+
+🎨 UI/UX Design Rationale
+
+The app design follows modern UI/UX standards:
+
+Minimalist layout to reduce cognitive load
+
+Neutral background with bold accent color (orange) for CTA emphasis
+
+High-quality fashion imagery for engagement
+
+Consistent typography and spacing
+
+Touch-friendly buttons for accessibility
+
+Clear visual hierarchy
+
+The interface was designed in Figma before implementation to ensure a structured development process.
+
+🛠 Technologies Used
+
+React Native (Expo) – Mobile development
+
+TypeScript – Type safety and scalable code
+
+Axios – API integration
+
+Expo Router / Stack Navigation – Routing
+
+Figma – UI/UX Design & Prototyping
